@@ -10,6 +10,7 @@ public class BasicOpertaionController {
 	
 	@RequestMapping(value = "/test",method= RequestMethod.GET)
 	public String testMethod() {
+		
 		return null;
 	}
 
