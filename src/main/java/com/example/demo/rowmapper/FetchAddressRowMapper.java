@@ -7,6 +7,7 @@ import com.example.demo.database.DataBaseConstants;
 
 public class FetchAddressRowMapper {
 
+
 	/*
 	 * @Override public FetchAddressAggregate mapRow(ResultSet rs, int rowNum)
 	 * throws SQLException { FetchAddressAggregate aggregate = new
@@ -28,8 +29,10 @@ public class FetchAddressRowMapper {
 	 * 
 	 */
 
+	
+	
 	public static final RowMapper<FetchAddressAggregate> FETCH_ADDRESS_RM = (rs, count) -> {
-
+		
 		FetchAddressAggregate aggregate = new FetchAddressAggregate();
 		aggregate.setId(rs.getInt(DataBaseConstants.ID));
 		aggregate.setAddress1(rs.getString(DataBaseConstants.ADDRESS_1));
@@ -41,3 +44,5 @@ public class FetchAddressRowMapper {
 	};
 
 }
+	
+
