@@ -1,8 +1,6 @@
 package com.example.demo;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import springfox.documentation.builders.PathSelectors;
@@ -12,9 +10,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
-@SpringBootApplication
 @EnableSwagger2
-@ComponentScan
 public class SwaggerConfig {
 	
 	@Bean
