@@ -77,6 +77,19 @@
 			<version>1.8.12</version>
 			<scope>compile</scope>
 		</dependency>
+<<<<<<< 1f0c9ea5e78640ab0a6b2665c934feb8d96926d6
+=======
+		
+		<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+>>>>>>> Added H2 DB concepts + Hibernate
 
 		<dependency>
 			<groupId>com.h2database</groupId>
