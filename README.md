@@ -21,3 +21,8 @@ This is a spring boot app, started with a simple REST API. Below are the content
    - Create a WebConfig file and override H2Servlet method
    - Change the applications.properties file with new DB parameters
    - Call localhost:8080/bibi/console to see the H2DB  
+  
+ 6. Added Hibernate Feature
+   - For this Hibernate property spring.jpa.hibernate.ddl-auto need to be added in the apllication.properties with a value of create or update 
+     or create-drop
+   - Then Use @Entity, @Id etc to create the entity class an then the DB will have a table named Class name  
